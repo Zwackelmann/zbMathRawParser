@@ -5,7 +5,7 @@ import ifis.delivermath.zbmathparser.scala.ZbMetadataItem
 
 object ScalaSample {
     def main(args: Array[String]) {
-        val c = new ZbMetadataCorpus("/home/simon/Dokumente/Arbeit/Research/Delivermath/ZBL Full Corpus/zbl_full_dmo.txt")
+        val c = new ZbMetadataCorpus("/path/to/corpus")
         
         println(c.take(10).map(_.title))
     }
