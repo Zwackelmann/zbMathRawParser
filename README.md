@@ -57,7 +57,7 @@ class ZbMetadataItem(
 ```
 
 ##Scala sample
-The following scala sample initializes a corpus iterator for the given file and iterates prints the titles of the first 10 documents. The iteratior processes the corpus lazily, which means that in order to process the first item, only the first item will be read from the corpus, etc.
+The following scala sample initializes a corpus iterator for the given file and prints the titles of the first 10 documents. The iteratior processes the corpus lazily, which means that in order to process the first item, only the first item will be read from the corpus, etc.
 
 ```scala
 import ifis.delivermath.zbmathparser.scala.ZbMetadataCorpus
