@@ -13,7 +13,7 @@ As this code is based on Scala, to run this code using *Java* you will need the 
     - Add the extracted scala-library.jar in your classpath
 
 ##Java sample
-The following java sample initializes a corpus iterator and iterates over the titles of all documents. The iteratior processes the corpus lazily, which means that in order to process the first item, only the first item will be read from the corpus, etc.
+The following java sample initializes a corpus iterator and prints out the titles of all documents. The iteratior processes the corpus lazily, which means that in order to process the first item, only the first item will be read from the corpus, etc.
 
 ```java
 import ifis.delivermath.zbmathparser.java.ZbMetadataItem;
