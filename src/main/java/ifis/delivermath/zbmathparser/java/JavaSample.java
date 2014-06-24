@@ -5,7 +5,7 @@ import ifis.delivermath.zbmathparser.java.ZbMetadataCorpus;
 
 public class JavaSample {
     public static void main(String[] args) {
-        ZbMetadataCorpus c = new ZbMetadataCorpus("/home/simon/Dokumente/Arbeit/Research/Delivermath/ZBL Full Corpus/zbl_full_dmo.txt");
+        ZbMetadataCorpus c = new ZbMetadataCorpus("/path/to/corpus");
         
         for(ZbMetadataItem mi : c) {
             System.out.println(mi.title());
