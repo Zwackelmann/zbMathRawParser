@@ -5,9 +5,9 @@ This parser can be used to translate the metadata information from the Zentralbl
 The parser comes with 2 versions -- one for scala and one for java. The appropiate parsers can be found in the packages `ifis.delivermath.zbmathparser.scala` and `ifis.delivermath.zbmathparser.java` respectively.
 
 ##Dependencies
-As this code is based on Scala, to run this code using *Java* you will need the *scala library* in your dependencies. For this you have two options:
-- Include via Maven: http://mvnrepository.com/artifact/org.scala-lang/scala-library
-- Include as jar
+As this code is based on Scala, to run this code using *Java* you will need the *scala library* in your classpath. Thus, either:
+- Include it via Maven: http://mvnrepository.com/artifact/org.scala-lang/scala-library
+- Include it as jar:
     - Download latest Scala version from: http://www.scala-lang.org/download/
     - Extract the file scala-[version]/lib/scala-library.jar from the downloaded archive
     - Add the extracted scala-library.jar in your classpath
